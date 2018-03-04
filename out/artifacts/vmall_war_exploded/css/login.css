@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
+
+/*头部样式*/
+.header{
+    width: 100%;
+    height: 67px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.header .header-center{
+    margin: 0 auto;
+    /*width: 65%;*/
+    width: 998px;
+    height: 100%;
+    /*float: left;*/
+    text-align: left;
+    /*background-color: red;*/
+    padding-top: 12px;
+    box-sizing: border-box;
+}
+.huawei-logo{
+    width: 167px;
+    height: 56px;
+    float: left;
+    /*position: relative;*/
+    padding-left: 4px;
+    box-sizing: border-box;
+}
+.huawei-logo img{
+    width: 167px;
+    height: 43px;
+    /*position: absolute;*/
+    /*bottom: 0px;*/
+}
+.huawei-shoppingmall{
+    width: 600px;
+    height: 56px;
+    float: left;
+    /*font-size: 18px;*/
+    /*padding-left: 15px;*/
+}
+.huawei-shoppingmall .vertical-line{
+    color: #cccccc;
+    float: left;
+    width: 4.69px;
+    height: 49.6px;
+    font-size: 16px;
+    line-height: 49.6px;
+    padding-left: 14px;
+}
+.huawei-shoppingmall .shoppingmall-text{
+    color: #333333;
+    float: left;
+    width: 200px;
+    height: 49.6px;
+    font-size: 18px;
+    padding-left: 18px;
+    line-height: 49.6px;
+    padding-left: 18px;
+}
+
+
+/*主体样式*/
+
+.bodyer{
+    width: 100%;
+    height: 590px;
+    background-color: #081638;
+}
+.bodyer-center{
+    width: 1130px;
+    height: 590px;
+    margin: 0 auto;
+    background-color: red;
+    background-image: url("/images/login-default-bg.png");
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bodyer-center .login{
+    width: 380px;
+    height: 530px;
+    float: right;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+}
+.bodyer-center .login .login-type-selection{
+    width: 100%;
+    margin: 21px auto;
+    text-align: center;
+    /*background-color: green;*/
+    overflow: hidden;
+}
+.bodyer-center .login .login-type-selection .login-by-account{
+    float: left;
+    display:block;
+    height: 100%;
+    width: 189px;
+    font-size: 20px;
+    color: #b40707;
+    text-decoration: none;
+}
+.bodyer-center .login .login-type-selection .login-by-account:hover{
+    color: #b40707;
+}
+.bodyer-center .login .login-type-selection .login-by-qr{
+    width: 190px;
+    height: 100%;
+    font-size: 20px;
+    display: inline-block;
+    border-left: 1px solid #2b2b2b;
+    text-decoration: none;
+    float: left;
+}
+.bodyer-center .login .login-type-selection .login-by-qr:hover{
+    color: #b40707;
+}
+
+/*帐号登录*/
+.bodyer .login-form .username-box , .password-box{
+    width: 328px;
+    height: 46px;
+    /*border:1px solid black;*/
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #a8a8a8;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /*position: absolute;*/
+    line-height: 46px;
+    color: rgb(204,204,204);
+}
+.bodyer .login-form .username-box .username{
+    width: 100%;
+    border: 0px;
+    outline: none;
+}
+.bodyer .login-form .password-box .password{
+    width: 100%;
+    outline: none;
+    border: 0px;
+}
+.bodyer .login-form .verification{
+    width: 328px;
+    height: 42px;
+    border:1px solid #a8a8a8;
+    margin: 12.8px auto 0 auto;
+    text-align: center;
+}
+.bodyer .login-form .verification img{
+
+}
+.bodyer .login-form .remember-account{
+    width: 328px;
+    height: 42px;
+    margin: 9px auto 0 auto;
+    /*border:1px solid #a8a8a8;*/
+    padding-top: 8px;
+    /*padding-left: 2px;*/
+    box-sizing: border-box;
+
+}
+.bodyer .login-form .remember-account .remember-account-icon{
+    width: 15px;
+    height: 15px;
+}
+.bodyer .login-form .remember-account .remember-account-text{
+    font-size: 12px;
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    top: -3px;
+}
+.bodyer .login-form .login-botton{
+    width: 328px;
+    height: 44px;
+    border:1px solid #B40707;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #B40707;
+    display: block;
+    outline: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+.bodyer .login-form .login-more{
+    width: 328px;
+    height: 42px;
+    /*border:1px solid black;*/
+    margin: 0 auto;
+    padding-top: 14px;
+    box-sizing: border-box;
+}
+.bodyer .login-form .login-more .login-more-text{
+    display: inline-block;
+    color: #007dff;
+    font-size: 13px;
+    float: right;
+}
+.bodyer .login-form .register-or-forget{
+    width: 328px;
+    /*height: 46px;*/
+    /*border:1px solid black;*/
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+}
+.bodyer .login-form .register-or-forget .register-account a{
+    text-decoration: none;
+}
+.bodyer .login-form .register-or-forget .register-account a:hover{
+    color: blue;
+}
+.bodyer .login-form .register-or-forget .forget-password a{
+    text-decoration: none;
+}
+.bodyer .login-form .register-or-forget .forget-password a:hover{
+    color: blue;
+}
+
+/*扫码登录*/
+
+
+/*其他方式登录*/
+.login-other{
+    width: 328px;
+    margin: 0 auto;
+    text-align: center;
+}
+.login-other .login-other-title{
+    color: #cccccc;
+    font-size: 12px;
+}
+
+/*页脚*/
+.footer{
+    width: 100%;
+    height: 50px;
+}
+.footer .footer-center{
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 14px;
+    color: #a8a8a8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer-center a{
+    text-decoration: none;
+    color: #a8a8a8;
+}
+.footer-center a:hover{
+    text-decoration: underline;
+}
+.footer .footer-center .copy{
+    padding-top: 5px;
+}
